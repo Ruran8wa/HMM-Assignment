@@ -1,1 +1,5 @@
 venv
+data_processed
+metadata.csv
+summary_table.csv
+report
