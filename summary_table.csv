@@ -1,0 +1,5 @@
+activity,num_sessions,total_duration_min,avg_rate,total_samples
+Jumping,36,9.5,54.0,30798
+Standing,36,8.4,54.0,27342
+Still,36,8.5,54.0,27372
+Walking,36,7.8,52.8,24612

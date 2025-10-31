@@ -1,0 +1,8 @@
+,precision,recall,f1-score,support
+Jumping,0.985,1.0,0.992,65.0
+Standing,0.0,0.0,0.0,53.0
+Still,0.602,1.0,0.751,80.0
+Walking,1.0,0.787,0.881,61.0
+accuracy,0.745,0.745,0.745,0.745
+macro avg,0.647,0.697,0.656,259.0
+weighted avg,0.668,0.745,0.689,259.0
