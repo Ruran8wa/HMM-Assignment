@@ -67,15 +67,17 @@ This repository satisfies all assignment requirements, including a 4–5 page re
 
 ## Results Summary
 
-- **Overall Accuracy**: 68.4%  
+- **Overall Accuracy**: 74.0%  
 - **Classification Report**:
-  |              | precision | recall | f1-score | support |
-  |--------------|-----------|--------|----------|---------|
-  | Jumping      | 0.987     | 1.000  | 0.993    | 366     |
-  | Standing     | 0.000     | 0.000  | 0.000    | 257     |
-  | Still        | 0.538     | 1.000  | 0.699    | 299     |
-  | Walking      | 1.000     | 0.348  | 0.516    | 282     |
-  | accuracy     |           |        | 0.634    | 1204    |
+  | Class      | Precision | Recall | F1-Score | Support |
+  |-------------|------------|---------|-----------|----------|
+  | Jumping     | 0.990      | 1.000   | 0.995     | 99       |
+  | Standing    | 0.000      | 0.000   | 0.000     | 79       |
+  | Still       | 0.607      | 1.000   | 0.755     | 122      |
+  | Walking     | 1.000      | 0.760   | 0.864     | 50       |
+  | **Accuracy** |            |         | **0.740** | **350**  |
+  | **Macro Avg** | 0.649    | 0.690   | 0.654     | 350      |
+  | **Weighted Avg** | 0.634 | 0.740   | 0.668     | 350      |
 
 - **Discussion**: The model excels at Jumping (100% recall) but struggles with low-motion activities (Standing misclassified as Still). This is due to sensor similarity in pocket placement. Transition matrix shows high persistence. Improvements: 3-state HMM merging Still/Standing, more features (gyro variance).
 
